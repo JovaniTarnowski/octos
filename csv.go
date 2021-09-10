@@ -32,6 +32,7 @@ func getByCNPJ(cpnj string) {
 	}
 
 	for idx, row := range data {
+
 		//Find by CNPJ
 		if row[1] != cpnj {
 			continue
